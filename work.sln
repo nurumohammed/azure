@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunction", "DurableFunction\DurableFunction.csproj", "{753A69EE-7B2C-4314-97DD-544DA03BD78F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Newproject", "Newproject\Newproject.csproj", "{6223A20F-758C-47B2-9ACF-DCD82566B409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DurableFunction (1)", "DurableFunction", "{4C0D0C5F-0109-4112-A720-14E45F2DEA06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{8F23FEA9-73D5-4974-B056-AED4DB872E04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{40A473AF-22B5-4708-87CF-55A7AE669F86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{CCF92A12-2A87-4CF8-B4CC-4CBB75723A41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "DurableFunction\obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{48E21EC4-3789-4187-9B56-D129B0C73F63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{753A69EE-7B2C-4314-97DD-544DA03BD78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753A69EE-7B2C-4314-97DD-544DA03BD78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753A69EE-7B2C-4314-97DD-544DA03BD78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753A69EE-7B2C-4314-97DD-544DA03BD78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6223A20F-758C-47B2-9ACF-DCD82566B409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6223A20F-758C-47B2-9ACF-DCD82566B409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6223A20F-758C-47B2-9ACF-DCD82566B409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6223A20F-758C-47B2-9ACF-DCD82566B409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E21EC4-3789-4187-9B56-D129B0C73F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E21EC4-3789-4187-9B56-D129B0C73F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E21EC4-3789-4187-9B56-D129B0C73F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E21EC4-3789-4187-9B56-D129B0C73F63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F23FEA9-73D5-4974-B056-AED4DB872E04} = {4C0D0C5F-0109-4112-A720-14E45F2DEA06}
+		{40A473AF-22B5-4708-87CF-55A7AE669F86} = {8F23FEA9-73D5-4974-B056-AED4DB872E04}
+		{CCF92A12-2A87-4CF8-B4CC-4CBB75723A41} = {40A473AF-22B5-4708-87CF-55A7AE669F86}
+		{48E21EC4-3789-4187-9B56-D129B0C73F63} = {CCF92A12-2A87-4CF8-B4CC-4CBB75723A41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {005A577B-A830-4125-9193-F5E8724AA10C}
+	EndGlobalSection
+EndGlobal
